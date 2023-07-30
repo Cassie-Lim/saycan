@@ -1,0 +1,9 @@
+ckpt*
+*.pkl
+*.pyc
+bowl/
+image_path_v2/
+logs/
+robotiq_2f_85/
+ur5e/
+*.mp4
