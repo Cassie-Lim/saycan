@@ -781,7 +781,7 @@ def run_cliport(optim, env, obs, text, video_path="tmp.mp4", show_state=False):
   # Tokenize text and get CLIP features.
   text_tokens = clip.tokenize(text).cuda()
   with torch.no_grad():
-    text_feats = clip_model.encode_text(text_tokens).float()
+    text_feats = encode_text(text_tokens).float()
   text_feats /= text_feats.norm(dim=-1, keepdim=True)
   text_feats = np.float32(text_feats.cpu())
 
