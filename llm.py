@@ -2,7 +2,7 @@ import openai
 from constants import *
 import clip
 
-openai.api_key = "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"
+openai.api_key = ""
 #@title LLM Cache
 overwrite_cache = True
 if overwrite_cache:
