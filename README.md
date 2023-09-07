@@ -38,6 +38,6 @@ gdown --id 1Nq0q1KbqHOA5O7aRSu4u7-u27EMMXqgP
 ```
 
 ### 3. You are all set!
-
+Don't forget to add your openai key in `llm.py`.
 If you have downloaded the pretrained policy in 2.4, you can now run `demo.py` to visualize the evaluation process.
 If you want to train a model from scratch, run `train.py`.
